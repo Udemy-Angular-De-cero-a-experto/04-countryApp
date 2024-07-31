@@ -28,6 +28,12 @@
           <li class="list-group-item">
             <strong>Código:</strong> {{ country.cca3 }}
           </li>
+          <li class="list-group-item">
+            <strong>Capital:</strong> {{ country.capital }}
+          </li>
+          <li class="list-group-item">
+            <strong>Latitud,Longitud.:</strong> {{ country.capitalInfo.latlng }}
+          </li>
 
         </ul>
       </div>
@@ -39,31 +45,30 @@
         <h3>Traducciones</h3>
 
         <div class="d-flex flex-wrap">
-          <span class="badge bg-primary m-1">{{ country.translations['ara'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['ces'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['ces'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['cym'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['deu'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['est'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['fin'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['fra'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['hrv'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['hun'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['ita'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['jpn'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['kor'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['nld'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['per'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['pol'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['por'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['rus'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['svk'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['spa'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['srp'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['swe'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['tur'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['urd'].official }}</span>
-          <span class="badge bg-primary m-1">{{ country.translations['zho'].official }}</span>
+          <span class="badge bg-primary m-1" title="Arabe">{{ country.translations['ara'].official }}</span>
+          <span class="badge bg-primary m-1" title="Checo">{{ country.translations['ces'].official }}</span>
+          <span class="badge bg-primary m-1" title="Galés">{{ country.translations['cym'].official }}</span>
+          <span class="badge bg-primary m-1" title="Alemán">{{ country.translations['deu'].official }}</span>
+          <span class="badge bg-primary m-1" title="Estonio">{{ country.translations['est'].official }}</span>
+          <span class="badge bg-primary m-1" title="Finlandés">{{ country.translations['fin'].official }}</span>
+          <span class="badge bg-primary m-1" title="Francés">{{ country.translations['fra'].official }}</span>
+          <span class="badge bg-primary m-1" title="Croata">{{ country.translations['hrv'].official }}</span>
+          <span class="badge bg-primary m-1" title="Húngaro">{{ country.translations['hun'].official }}</span>
+          <span class="badge bg-primary m-1" title="Italiano">{{ country.translations['ita'].official }}</span>
+          <span class="badge bg-primary m-1" title="Japonés">{{ country.translations['jpn'].official }}</span>
+          <span class="badge bg-primary m-1" title="Coreano">{{ country.translations['kor'].official }}</span>
+          <span class="badge bg-primary m-1" title="Neerlandés">{{ country.translations['nld'].official }}</span>
+          <span class="badge bg-primary m-1" title="Persa">{{ country.translations['per'].official }}</span>
+          <span class="badge bg-primary m-1" title="Polaco">{{ country.translations['pol'].official }}</span>
+          <span class="badge bg-primary m-1" title="Portugués">{{ country.translations['por'].official }}</span>
+          <span class="badge bg-primary m-1" title="Ruso">{{ country.translations['rus'].official }}</span>
+          <span class="badge bg-primary m-1" title="Eslovaco">{{ country.translations['svk'].official }}</span>
+          <span class="badge bg-primary m-1" title="Español">{{ country.translations['spa'].official }}</span>
+          <span class="badge bg-primary m-1" title="Serbio">{{ country.translations['srp'].official }}</span>
+          <span class="badge bg-primary m-1" title="Sueco">{{ country.translations['swe'].official }}</span>
+          <span class="badge bg-primary m-1" title="Turco">{{ country.translations['tur'].official }}</span>
+          <span class="badge bg-primary m-1" title="Urdu(Pakistan)">{{ country.translations['urd'].official }}</span>
+          <span class="badge bg-primary m-1" title="Chino">{{ country.translations['zho'].official }}</span>
         </div>
       </div>
     </div>

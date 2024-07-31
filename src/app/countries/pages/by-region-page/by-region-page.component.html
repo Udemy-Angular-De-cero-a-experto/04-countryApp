@@ -10,7 +10,7 @@
     <!-- SearchBox -->
     <button *ngFor="let region of regions"
       class="btn btn-outline-primary mx-2"
-      [ngClass]="{ 'btn-primary text-light': selectedRegion === region,}"
+      [ngClass]="{ 'btn-primary text-light': selectedRegion === region, }"
       (click)="searchByRegion( region )"
     >
       {{ region }}
